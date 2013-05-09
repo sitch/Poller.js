@@ -1,0 +1,10 @@
+{
+  author: "Sitch",
+  name: "Poller.js",
+  version: "1.0.0",
+  homepage: "https://github.com/Sitch/Poller.js",
+  repository: {
+  type: "git",
+    url: "https://github.com/Sitch/Poller.js.git"
+  }
+}
