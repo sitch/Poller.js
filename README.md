@@ -6,7 +6,7 @@ AMD friendly setTimeout poller that executes a given callback on a certain inter
 ### Downloads (Right-click, and use "Save As")
 
 - [Development Version](<https://raw.github.com/Sitch/Poller.js/master/Poller.js>)   1.73kb, Uncompressed with Comments
-- [Production Version](<https://raw.github.com/Sitch/Poller.js/master/Poller.min.js>)   1.27kb, Minified and Gzipped
+- [Production Version](<https://raw.github.com/Sitch/Poller.js/master/Poller.min.js>)   0.53kb, Minified and Gzipped
 
 
 ##Example:
