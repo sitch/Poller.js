@@ -48,10 +48,8 @@
 		restart: function () {
 			if (this.isRunning()) {
 				this.stop();
-				this.start();
-			} else {
-				this.start();
-			}
+			} 
+			return this.start();
 		},
 		isRunning: function () {
 			return !!this.continuePolling;
