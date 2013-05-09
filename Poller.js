@@ -30,7 +30,7 @@
 			this.interval = interval;
 		},
 		start: function () {
-			if (!this.isPolling()) {
+			if (!this.isRunning()) {
 				this.continuePolling = true;
 				this.result = this.callback.call(this.context, this.result);
 				this.poll();
@@ -53,7 +53,7 @@
 				this.start();
 			}
 		},
-		isPolling: function () {
+		isRunning: function () {
 			return !!this.continuePolling;
 		},
 		updateInterval: function (interval) {
@@ -66,7 +66,7 @@
 		},
 		poll: function () {
 			var self = this;
-			if (this.isPolling()) {
+			if (this.isRunning()) {
 				this.pollCount += 1;
 				this.timeout = setTimeout(function () {
 					self.result = self.callback.call(self.context, self.result);
