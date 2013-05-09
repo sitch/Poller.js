@@ -12,7 +12,7 @@ AMD friendly setTimeout poller that executes a given callback on a certain inter
 ##Basic Usage
 
 ###Initialize
-Takes a truple of arguments: (callback, interval, context).
+Takes a truple of arguments: (callback, interval, context (optional)).
 
 - callback MUST be a function.
 - interval MUST be a nummber.
