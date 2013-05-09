@@ -1,5 +1,5 @@
 (function (root, factory) {
-  'use strict';
+	'use strict';
 	if (typeof exports === 'object') {
 		module.exports = factory();
 	} else if (typeof define === 'function' && define.amd) {
@@ -46,7 +46,7 @@
 			return this;
 		},
 		restart: function () {
-			if (this.isPolling()) {
+			if (this.isRunning()) {
 				this.stop();
 				this.start();
 			} else {
